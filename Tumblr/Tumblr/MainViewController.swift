@@ -34,12 +34,10 @@ class MainViewController: UIViewController {
         // Do any additional setup after loading the view.
         var storyboard = UIStoryboard(name: "Main", bundle: nil)
         homeVC = storyboard.instantiateViewControllerWithIdentifier("HomeViewController") as HomeViewController
-        searchVC = storyboard.instantiateViewControllerWithIdentifier("SearchViewController") as SearchViewController
         accountVC = storyboard.instantiateViewControllerWithIdentifier("AccountViewController") as AccountViewController
         trendingVC = storyboard.instantiateViewControllerWithIdentifier("TrendingViewController") as TrendingViewController
         
         homeVC.view.frame = contentView.frame
-        searchVC.view.frame = contentView.frame
         accountVC.view.frame = contentView.frame
         trendingVC.view.frame = contentView.frame
         
@@ -80,7 +78,10 @@ class MainViewController: UIViewController {
                                 displayContentController(homeVC, container: contentView)
                                 activeVC=homeVC
                 
-            case searchViewBtn: hideContentController(activeVC)
+            case searchViewBtn: var storyboard = UIStoryboard(name: "Main", bundle: nil)
+                                searchVC = storyboard.instantiateViewControllerWithIdentifier("SearchViewController") as SearchViewController
+                                searchVC.view.frame = contentView.frame
+                                hideContentController(activeVC)
                                 displayContentController(searchVC, container: contentView)
                                 activeVC=searchVC
                 

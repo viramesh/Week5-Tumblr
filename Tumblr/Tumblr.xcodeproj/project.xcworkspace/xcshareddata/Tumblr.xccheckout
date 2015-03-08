@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0B95EADE-AD90-4DBE-9FC9-1D6E673EB018</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Tumblr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4CF61A652ABB8D9E21869DB08E451640FFF6CF61</key>
+		<string>https://github.com/viramesh/Week5-Tumblr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Tumblr/Tumblr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4CF61A652ABB8D9E21869DB08E451640FFF6CF61</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/viramesh/Week5-Tumblr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4CF61A652ABB8D9E21869DB08E451640FFF6CF61</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4CF61A652ABB8D9E21869DB08E451640FFF6CF61</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Week-05-Tumblr</string>
+		</dict>
+	</array>
+</dict>
+</plist>
